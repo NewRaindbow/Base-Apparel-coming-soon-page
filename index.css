@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans');
+
 :root{
   /* ### Primary */
 
@@ -13,7 +14,7 @@
 
 --linear: 135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%);
 --linear-hover: 135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%);
---linear-hover-button: 135deg, hsl(0, 80%, 86%) 45%, hsl(0, 74%, 74%)
+--linear-hover-button: 135deg, hsl(0, 80%, 86%) 45%, hsl(0, 74%, 74%) 95%
 }
 
 * {
@@ -36,6 +37,7 @@ body {
   letter-spacing:16px;
   max-width: 760px;
   margin-top: 120px;
+  font-weight: 600;
 }
 #hero-desktop{
   height: 100%;
@@ -91,7 +93,7 @@ body {
   border-color: var(--danger-color);
   position: relative;
 }
-/* form:after #email:invalid{
+ form:after #email:invalid{
   content: "Please provide a valid email address";
   color: var(--danger-color);
   display: contents;
@@ -100,7 +102,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-} */
+} 
 #email::placeholder{
   color: var(--desaturated-red);
 }
@@ -116,7 +118,7 @@ body {
   color: var(--desaturated-red);
 }
 #we-are{
-  font-weight: 100;
+  font-weight: 300;
 }
 .mobile{
   display: none;
@@ -161,8 +163,8 @@ body {
     width: 100%;
   }
   .left{
-    padding: 0;
-    margin: 0 auto;
+    padding: 65px;
+    margin-left: 32px;
     text-align: center;
     display: flex;
     flex-direction: column;
