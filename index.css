@@ -151,6 +151,9 @@ body {
   .desktop{
     display: none;
   }
+    #hero-desktop{
+    display: none;
+  }
   .container{
     display: block;
   }
